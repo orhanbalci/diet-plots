@@ -1,0 +1,39 @@
+\documentclass{article}
+\title{GenerationCountExperiment}
+\usepackage{colortbl}
+\usepackage[table*]{xcolor}
+\xdefinecolor{gray95}{gray}{0.65}
+\xdefinecolor{gray25}{gray}{0.8}
+\author{A.J. Nebro}
+\begin{document}
+\maketitle
+\section{Tables}
+
+\begin{table}
+\caption{HV. Mean and Standard Deviation}
+\label{table: HV}
+\centering
+\begin{scriptsize}
+\begin{tabular}{lllll}
+\hline & NSGAIIWithGenerationCount2500 & NSGAIIWithGenerationCount5000 & NSGAIIWithGenerationCount10000 &  NSGAIIWithGenerationCount15000\\
+\hline 
+DietProblem & $  2.62e-01_{ 3.9e-02}$ & $  4.88e-01_{ 5.6e-02}$ & \cellcolor{gray25}$  6.79e-01_{ 2.7e-02}$ & \cellcolor{gray95}$  7.44e-01_{ 3.6e-02}$ \\
+\hline
+\end{tabular}
+\end{scriptsize}
+\end{table}
+
+\begin{table}
+\caption{HV. Median and Interquartile Range}
+\label{table: HV}
+\centering
+\begin{scriptsize}
+\begin{tabular}{lllll}
+\hline & NSGAIIWithGenerationCount2500 & NSGAIIWithGenerationCount5000 & NSGAIIWithGenerationCount10000 &  NSGAIIWithGenerationCount15000\\
+\hline 
+DietProblem & $  2.64e-01_{ 5.3e-02}$ & $  4.91e-01_{ 8.6e-02}$ & \cellcolor{gray25}$  6.82e-01_{ 4.8e-02}$ & \cellcolor{gray95}$  7.50e-01_{ 2.7e-02}$ \\
+\hline
+\end{tabular}
+\end{scriptsize}
+\end{table}
+\end{document}

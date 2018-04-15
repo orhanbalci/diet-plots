@@ -1,0 +1,39 @@
+\documentclass{article}
+\title{MutationRateExperiment}
+\usepackage{colortbl}
+\usepackage[table*]{xcolor}
+\xdefinecolor{gray95}{gray}{0.65}
+\xdefinecolor{gray25}{gray}{0.8}
+\author{A.J. Nebro}
+\begin{document}
+\maketitle
+\section{Tables}
+
+\begin{table}
+\caption{HV. Mean and Standard Deviation}
+\label{table: HV}
+\centering
+\begin{scriptsize}
+\begin{tabular}{llllll}
+\hline & NSGAIIWithSwapMutationProbabilityNumVariables & NSGAIIWithSwapMutationProbability02 & NSGAIIWithSwapMutationProbability04 & NSGAIIWithSwapMutationProbability06 &  NSGAIIWithSwapMutationProbability08\\
+\hline 
+DietProblem & $  5.17e-01_{ 7.3e-02}$ & $  5.07e-01_{ 6.2e-02}$ & \cellcolor{gray25}$  5.20e-01_{ 5.7e-02}$ & \cellcolor{gray95}$  5.40e-01_{ 6.3e-02}$ & $  5.00e-01_{ 7.1e-02}$ \\
+\hline
+\end{tabular}
+\end{scriptsize}
+\end{table}
+
+\begin{table}
+\caption{HV. Median and Interquartile Range}
+\label{table: HV}
+\centering
+\begin{scriptsize}
+\begin{tabular}{llllll}
+\hline & NSGAIIWithSwapMutationProbabilityNumVariables & NSGAIIWithSwapMutationProbability02 & NSGAIIWithSwapMutationProbability04 & NSGAIIWithSwapMutationProbability06 &  NSGAIIWithSwapMutationProbability08\\
+\hline 
+DietProblem & $  5.00e-01_{ 1.1e-01}$ & $  5.11e-01_{ 6.5e-02}$ & \cellcolor{gray25}$  5.17e-01_{ 5.2e-02}$ & \cellcolor{gray95}$  5.33e-01_{ 8.8e-02}$ & $  5.03e-01_{ 9.7e-02}$ \\
+\hline
+\end{tabular}
+\end{scriptsize}
+\end{table}
+\end{document}
